@@ -15,9 +15,9 @@
 </head>
 <body>
   <header>
+    <div class="bg-header"></div>
     <div class="head_container container">
       <div class="logo">
-        <a class="fixed-logo" href="#"><img src="assets/white_logo.png"></a>
         <a class="head_logo" href="#"><img src="assets/logo.webp"></a>
       </div>
       <div class="menu" id="myTopnav">
@@ -30,14 +30,12 @@
   </header>
 
   <section class="main-banner">
-    <div id="video-ban" class="video-banner">
-      <video playsinline autoplay muted name="The Grint">
-        <source src="assets/ball.mp4">
-      </video>
+    <div class="bg-banner-img">
+      <img src="assets/banner3.jpg" alt="">
     </div>
     <div class="banner-content container">
       <div class="wrapper">
-        <div id="banner-left" class="left">
+        <div class="left">
           <h1><b>The Best Golf App</b></h1>
           <h2>Golf Scoretracker, Handcaps, Golf GPS, Advanced Stats and more</h2>
           <div class="buttons">
@@ -45,7 +43,7 @@
          </div>
          <p class="reviews">4.8 ⭐⭐⭐⭐⭐ (12K+ reviews)</p>
        </div>
-       <div id="banner-right" class="right">
+       <div class="right">
         <img src="assets/devices2.webp" alt="">
       </div>
     </div>
@@ -76,7 +74,7 @@
       <p>“Score, stats and GPS”</p>
     </div>
     <div class="a-wrapper">
-      <div class="a-img-box"><img src="assets/golf_magazine.png" alt=""></div>
+      <div class="a-img-box"><img src="assets/golf-magazine-logo-black-and-white.png" alt=""></div>
       <p>“Top App for Handicaps and scoring”</p>
     </div>
   </div>
@@ -273,7 +271,7 @@
       </div>
 
       <div class="right">
-        <img class="m-hidden" src="assets/new/asset2.png" alt="">
+        <img class="m-hidden" src="assets/new/asset3.png" alt="">
         <div class="img-wrapper">
           <img src="assets/new/greenmaps.webp" alt="">
           <img src="assets/5-2.webp" alt="">
@@ -439,17 +437,22 @@
 <footer>
   <div class="container footer-container">
    <div class="top">
-    <div class="footer-logo">
-      <img src="assets/logo.webp" alt="">
+    <div class="top-container">
+      <div class="footer-logo">
+      <img src="assets/white_logo.png" alt="">
     </div>
-    <h2>The Best Golf App</h2>
-    <p>Golf Score Tracker, USGA Handicap, Golf GPS, Advanced Stats and more</p>
-    <div class="social-media">
-      <a href="https://www.facebook.com/thegrintgolf"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
-      <a href="https://www.instagram.com/thegrintgolf/"><i aria-hidden="true" class="fab fa-instagram"></i></a>
-      <a href="https://twitter.com/TheGrintGolf"><i aria-hidden="true" class="fab fa-twitter"></i></a>
+    <div class="footer-content">
+      <h2>The Best Golf App</h2>
+      <p>Golf Score Tracker, USGA Handicap, Golf GPS, Advanced Stats and more</p>
+      <div class="social-media">
+        <a href="https://www.facebook.com/thegrintgolf"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/thegrintgolf/"><i aria-hidden="true" class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/TheGrintGolf"><i aria-hidden="true" class="fab fa-twitter"></i></a>
+      </div>
+    </div>
     </div>
   </div>
+
   <div class="bot">
    <div class="bot-box">
      <h4>TheGrint</h4>
