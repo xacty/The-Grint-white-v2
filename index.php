@@ -37,7 +37,7 @@
       <div class="wrapper">
         <div class="left">
           <h1><b>The Best Golf App</b></h1>
-          <h2>Golf Scoretracker, Handcaps, Golf GPS, Advanced Stats and more</h2>
+          <h2>Golf Scoretracker, Handicaps, Golf GPS, Advanced Stats and more</h2>
           <div class="buttons">
            <?php include "sections/buttons.html" ?>
          </div>
@@ -51,36 +51,40 @@
 </section>
 
 
-<section class="first-section">
-  <div class="container">
-    <h1><b>TheGrint</b> is the best <br><b class="green">golf scoretracker!</b></h1>
-    <div class="first-wrapper">
-      <div class="left"><img src="assets/scoretracker1.webp" alt=""></div>
-      <div class="right">
-        <img class="m-hidden" src="assets/scoretracker2.webp" alt="">
+<section class="first-section ">
+  <div class="container">    
+    <div class="first-wrapper fifth-wrapper">
+      <div class="left">
+        <div class="img-wrapper">
+          <img src="assets/scoretracker3.webp" alt="">
+          <img src="assets/scoretracker1.webp" alt="">
+        </div>
+      </div>
+      <div class="right">        
         <div class="first-content">
-         <h2><b>Track as you play</b><br>with our score tracker tool</h2>
-         <p>The advanced score tracker allows you to add metrics for each hole, giving you an easy solution to add scores and feed info into your personalized statistics feature</p>
-       </div>
-     </div>
-   </div>
-   <div class="awards">
-    <div class="a-wrapper">
-      <div class="a-img-box"><img src="assets/cnn.png" alt=""></div>
-      <p>“App changes golf for amateurs”</p>
+          <h1>Track as you play with our <b class="green">Golf Scoretracker!</b></h1>
+          <p>The advanced score tracker allows you to add metrics for each hole, giving you an easy solution to add scores and feed info into your personalized statistics feature</p>
+        </div>
+      </div>
     </div>
-    <div class="a-wrapper">
-      <div class="a-img-box"><img src="assets/golf_digest.png" alt=""></div>
-      <p>“Score, stats and GPS”</p>
-    </div>
-    <div class="a-wrapper">
-      <div class="a-img-box"><img src="assets/golf-magazine-logo-black-and-white.png" alt=""></div>
-      <p>“Top App for Handicaps and scoring”</p>
-    </div>
+  </div>
+</section>
+<section id="awards">
+ <div class="awards container">
+  <div class="a-wrapper">
+    <div class="a-img-box"><img src="assets/cnn.png" alt=""></div>
+    <p>“App changes golf for amateurs”</p>
+  </div>
+  <div class="a-wrapper">
+    <div class="a-img-box"><img src="assets/golf_digest.png" alt=""></div>
+    <p>“Score, stats and GPS”</p>
+  </div>
+  <div class="a-wrapper">
+    <div class="a-img-box"><img src="assets/golf-magazine-logo-black-and-white.png" alt=""></div>
+    <p>“Top App for Handicaps and scoring”</p>
   </div>
 </div>
 </section>
-
 <section style="display: none;" class="second-section provisional blue-bg">
   <div class="blue-overlay"></div>
   <div class="container">
@@ -271,7 +275,7 @@
       </div>
 
       <div class="right">
-        <img class="m-hidden" src="assets/new/asset3.png" alt="">
+
         <div class="img-wrapper">
           <img src="assets/new/greenmaps.webp" alt="">
           <img src="assets/5-2.webp" alt="">
@@ -287,12 +291,11 @@
     <div class="second-wrapper sixth-wrapper">
       <div class="left">
         <div id="slider">
-          <img class="iphone-border" src="assets/iphone_border.webp" alt="">
           <ul id="slideWrap"> 
-            <li><img src="assets/image-3.webp" alt=""></li>
-            <li><img src="assets/image-4.webp" alt=""></li>
-            <li><img src="assets/image-5.webp" alt=""></li>
-            <li><img src="assets/image-6.webp" alt=""></li>
+            <li><div class="image-slider-container"><img src="assets/image-3.webp" alt=""></div></li>
+            <li><div class="image-slider-container"><img src="assets/image-4.webp" alt=""></div></li>
+            <li><div class="image-slider-container"><img src="assets/image-5.webp" alt=""></div></li>
+            <li><div class="image-slider-container"><img src="assets/image-6.webp" alt=""></div></li>
           </ul>
 
           <a id="prev" >&#8810;</a>
@@ -370,7 +373,7 @@
       </div>
 
       <div class="right">
-        <img class="m-hidden" src="assets/new/asset3.png" alt="">
+
         <div class="img-wrapper">
           <img src="assets/leaderboards.webp" alt="">
           <img src="assets/new/section-gaming.webp" alt="">
@@ -439,17 +442,17 @@
    <div class="top">
     <div class="top-container">
       <div class="footer-logo">
-      <img src="assets/white_logo.png" alt="">
-    </div>
-    <div class="footer-content">
-      <h2>The Best Golf App</h2>
-      <p>Golf Score Tracker, USGA Handicap, Golf GPS, Advanced Stats and more</p>
-      <div class="social-media">
-        <a href="https://www.facebook.com/thegrintgolf"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/thegrintgolf/"><i aria-hidden="true" class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com/TheGrintGolf"><i aria-hidden="true" class="fab fa-twitter"></i></a>
+        <img src="assets/white_logo.png" alt="">
       </div>
-    </div>
+      <div class="footer-content">
+        <h2>The Best Golf App</h2>
+        <p>Golf Score Tracker, USGA Handicap, Golf GPS, Advanced Stats and more</p>
+        <div class="social-media">
+          <a href="https://www.facebook.com/thegrintgolf"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/thegrintgolf/"><i aria-hidden="true" class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/TheGrintGolf"><i aria-hidden="true" class="fab fa-twitter"></i></a>
+        </div>
+      </div>
     </div>
   </div>
 

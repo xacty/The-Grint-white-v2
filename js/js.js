@@ -152,3 +152,5 @@ function SlideShow(n) {
     window.onload = function() {
       responsiveSlider();  
     };
+
+    
